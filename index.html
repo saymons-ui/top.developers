@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top Developers</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <!-- Navigation bar -->
+        <nav>
+            <div>
+                <img src="images/logo.png" alt="Company Logo" class="logo">
+            </div>
+            <div>
+                <a href="index.html">Top Developers</a>
+                <a href="about.html">About Us</a>
+            </div>
+        </nav>
+        <!-- Container for mail and video -->
+        <div class="content-container">
+            <!-- Contact form -->
+            <article class="mail">
+                <h2>How can I help?</h2>
+                <form action="mailto:saymons@uia.no" method="post" enctype="text/plain">
+                    <textarea name="message" id="message" placeholder="Write your message here..." required oninput="autoExpand(this)"></textarea>
+                    <input type="email" name="sender_email" placeholder="type your Email" required>
+                    <input type="submit" value="Send Email">
+                </form>
+            </article>
+            <!-- YouTube Embed Section -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/Dcdl4y5QF0A?si=Mpi_NXx3FNDKHX-u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </header>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+
+    <footer class="contact-footer">
+        <div>
+            <p>Contact Information:</p>
+            <p>Phone: <a href="tel:92974715">92974715</a></p>
+            <p>Email: <a href="mailto:saymons@uia.no">saymons@uia.no</a></p>
+            <p>Address: Universitet 14, 4656 Kristiansand</p>
+        </div>
+    </footer>
+    
+    <footer class="copyright-footer">
+        <div>
+            <p>&copy; 2024 The Developers. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
