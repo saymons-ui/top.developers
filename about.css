@@ -28,7 +28,7 @@
 
     /* Styling for the background container */
     .background-container {
-        background-image: url('images/aboutUsPic.jpg');
+        background-image: url('aboutUsPic.jpg');
         background-size: cover;
         background-position: center;
         min-height: 100vh;
