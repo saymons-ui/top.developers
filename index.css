@@ -104,6 +104,7 @@ input[type="submit"]:hover {
 
 .video-container iframe {
     margin: auto;
+    height: 315px;
     border: 1px;
 }
 
